@@ -1,0 +1,10 @@
+*.lua
+*.lib
+*.ico
+*.bat
+*.manifest
+*.exe
+*.dll
+*.c
+*.h
+*.hpp

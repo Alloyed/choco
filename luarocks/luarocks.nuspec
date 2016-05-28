@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>luarocks</id>
+    <title>Luarocks</title>
+    <version>2.3.0</version>
+    <authors>Kepler Project</authors>
+    <owners>Kyle McLamb</owners>
+    <summary>A self contained install of Lua/Luarocks.</summary>
+    <description>
+      This package provides the bare minimum required to install and use
+      Luarocks packages. It installs Luarocks 2.3.0 and PUC-Lua 5.1.5 into a
+      self-contained directory so it doesn't interact with other Lua binaries.
+    </description>
+    <projectUrl>http://luarocks.org</projectUrl>
+    <packageSourceUrl>https://github.com/Alloyed/choco</packageSourceUrl>
+    <docsUrl>https://github.com/keplerproject/luarocks/wiki </docsUrl>
+    <projectSourceUrl>https://github.com/keplerproject/luarocks</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/keplerproject/luarocks/issues</bugTrackerUrl>
+    <tags>luarocks lua lua51</tags>
+    <licenseUrl>https://github.com/keplerproject/luarocks/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://luarocks.org/static/logo.svg</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes>
+      luarocks: https://github.com/keplerproject/luarocks/wiki/Release-history
+      lua: http://www.lua.org/versions.html
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="luarocks\**" target="luarocks" />
+  </files>
+</package>
